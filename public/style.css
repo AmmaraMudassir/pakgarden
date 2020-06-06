@@ -1,0 +1,88 @@
+.navbar{
+    background-color: #00796B !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold !important;
+}
+.fa-cart-arrow-down, .fa-user-circle ,{
+    font-size: 32px !important;
+}
+ .fa-arrow-circle-down,.fa-clock-o , .fa-thumbs-up{
+    font-size: 52px !important;
+    margin-right: 10px;
+    color: #00796B !important;
+}
+.Card1 , .Card2, .Card3{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   border-top-right-radius: 3em;
+   border-bottom-left-radius: 3em;
+
+
+}
+h3{
+    color: #00796B !important;
+}
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.NewArrivals, .Flowers, .Outdoorplants, .indoorplants, .service{
+    margin-top: 50px;
+}
+.card{
+    height: auto  !important;
+    width: 250px;
+    margin-bottom: 5px;
+
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color:  #00796B !important; ;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #00796B ;
+    margin: 20px;
+}
+.heading > h1 {
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    width: 100%;
+    background-color:  #00796B;
+    height: 70px;
+    margin-top: 10px;
+
+}
+.footer > div{
+    text-align: center;
+    align-items: baseline;
+}
+h4{
+    color: #fff;
+}
+@media screen and (max-width: 600px){
+    .Card1 , .Card2, .Card3{
+        width: 100%;
+    }
+
+}
+.s{
+    background-color: #E0F2F1;
+}
